@@ -1,1 +1,1 @@
-# rsschool-cv
+https://pushkiins.github.io/rsschool-cv/
