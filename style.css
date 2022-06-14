@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+    scroll-behavior: smooth;
+}
+h2 {
+    margin-left: 20px;
+    padding-top: 15px;
+}
+h3 {
+    margin-left: 20px;
+    padding-top:10px;
+}
+ul {
+    padding-left: 10px;
+    margin: 10px;
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+}
+header {
+    display: flex;
+}
+.name {
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+}
+.photo {
+    width: 300px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    width: 70%;
+    padding: 20px;
+}
+.github {
+    padding-top:10px;
+}
+main {
+    display: flex;
+    width: 100%;
+    background-color: var(--main-color);
+}
+.aside {
+    width: 470px;
+    padding: 20px;
+    background-color: var(--aside-color);
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--text-color);
+}
+.footer-year {
+    width: 100px;
+    text-align: center;
+    font-size: 37px;
+    line-height: 37px;
+    font-weight: bold;
+    color: var(--bg-color);
+}
+.footer-github > a {
+    color: var(--bg-color);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+:root {
+    --bg-color: rgb(0, 0, 0);
+    --main-color: rgb(31, 31, 31);
+    --aside-color: rgb(17, 17, 17);
+    --text-color: rgb(255, 255, 255);
+    --main-trans: 0.15s linear;
+}
+
+.footer-img {
+    width: 100px;
+    position: relative;
+    top: 3px;
+}
+.burger-menu__nav {
+   padding-top: 10px; 
+}
+
+@media (max-width:767px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    main {
+        flex-direction: column;
+    }
+
+}

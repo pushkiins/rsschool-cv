@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="burger-menu__nav">
+            <a href="#section-1" class="burger-menu__link">About me</a>
+            <a href="#section-2" class="burger-menu__link">Education</a>
+            <a href="#section-3" class="burger-menu__link">Projects</a>
+            <a href="#section-4" class="burger-menu__link">Code Example</a>
+        </nav>
+        <header>
+            <div class="name">
+                <h1>Aleaksandr Stsepanenko</h1>
+            </div>
+            <img class="photo" src="./img/x_55ba12a2.jpg" alt="photo">
+        </header>
+        <main>
+            <div class="main">
+                <div id="section-1">
+                    <h2>About me</h2>
+                    <div class="AboutMe">
+                        <h3>I am looking for an interesting job in an exciting career of talented people, where they realize their working potential and abilities.</h3>
+                    </div>
+                </div>
+                
+                <div id="section-2" class="education">
+                    <h2>Education</h2>
+                    <div>
+                        <h3>University: Technical College, electrician</h3>
+                    </div>
+                </div>
+
+                <div id="section-3" class="projects">
+                    <h2>Projects</h2>
+                    <div class="github">
+                        <a href="https://github.com/pushkiins?tab=repositories" target="_blank">GITHAB</a>
+                    </div>
+                </div>
+
+                <div id="section-4" class="code-example">
+                    <h2>Code Example</h2>
+                    <div>
+                        <pre>
+                            <code>
+                                const createDreamTeam = (members) => {<br>
+                                    if (!Array.isArray(members)) return false<br>
+                                    return members<br>
+                                    .filter(m => typeof m === 'string')<br>
+                                    .map(m => m.trim()[0].toUpperCase())<br>
+                                    .sort()<br>
+                                    .join('')<br>
+                                }<br>
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            <div class="aside">
+                <div>
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>Belarus, Zhodino</li>
+                        <li>+375291810662</li>
+                        <li>alekservice@mail.ru</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>GIT</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h2>English</h2>
+                    <div>
+                        <h3>A2</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+        <footer>
+            <div class="footer-year">2022</div>
+            <div class="footer-github">
+                <a href="https://github.com/pushkiins" target="_blank">GitHub</a>
+            </div>
+            <div class="footer-rs">
+                <a target="_blank" href="https://rs.school/js-stage0/">
+                    <img class="footer-img" src="./img/rs_school_js.svg" alt="RSSchool link"/>
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
